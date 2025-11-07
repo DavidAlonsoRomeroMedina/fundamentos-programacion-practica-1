@@ -1,5 +1,5 @@
 // FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
-// Nombre del estudiante: _________________
+// Nombre del estudiante: David Romero
 // Fecha: _________________
 
 // ============================================
@@ -15,9 +15,9 @@ function miInformacion() {
   // TODO: Declara las variables nombre, edad y carrera
   // Ejemplo: const nombre = "Juan";
   
-  const nombre = "";
-  const edad = 0;
-  const carrera = "";
+  const nombre = "David Alonso Romero Medina";
+  const edad = "19";
+  const carrera = "TSU";
   
   return { nombre, edad, carrera };
 }
@@ -31,10 +31,10 @@ function miInformacion() {
 function operacionesBasicas(a, b) {
   // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
   
-  const suma = 0;
-  const resta = 0;
-  const multiplicacion = 0;
-  const division = 0;
+  const suma = a + b;
+  const resta = a - b;
+  const multiplicacion = a * b;
+  const division = a / b;
   
   return { suma, resta, multiplicacion, division };
 }
