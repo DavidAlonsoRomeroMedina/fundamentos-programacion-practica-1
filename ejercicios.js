@@ -257,7 +257,7 @@ function invertirArray(arr) {
   // TODO: Invierte el orden de los elementos
   // Pista: Puedes usar arr.reverse() o hacerlo manualmente
   const invertido = [];
-  return invertido;
+  return arr.slice().reverse();
 }
 
 // ============================================
